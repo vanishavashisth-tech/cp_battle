@@ -1,6 +1,22 @@
-.env
+# Node
 node_modules/
+**/node_modules/
+frontend/dist/
+e2e/test-results/
+e2e/playwright-report/
+
+# Python
 venv/
+**/venv/
 __pycache__/
+**/__pycache__/
 *.pyc
+
+# Local and environment files
+.env
+**/.env
+**/.env.*
+!**/.env.example
+.transfer/
+_to_delete/
 .DS_Store
